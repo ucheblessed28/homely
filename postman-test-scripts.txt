@@ -18,8 +18,11 @@ pm.test("Content-Type header is text/html", function () {
 });
 
 
-pm.test("Validate the schema of the response body", function () {
-    const responseData = pm.response.json();
-    
-    // Add schema validation checks here
+pm.test("Response contains HTML doctype", function () {
+    pm.expect(pm.response.text()).to.include("<!DOCTYPE html>");
 });
+
+pm.test("Response contains opening html tag", function () {
+    pm.expect(pm.response.text()).to.include("<html");
+});
+

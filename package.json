@@ -1,0 +1,25 @@
+{
+  "name": "homely",
+  "version": "1.0.0",
+  "description": "This is a sample README file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucheblessed28/homely.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucheblessed28/homely/issues"
+  },
+  "homepage": "https://github.com/ucheblessed28/homely#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
