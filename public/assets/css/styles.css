@@ -1,0 +1,24 @@
+/* styles.css */
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+.alert-text {
+  color: red;
+}
+
+.subsection.header {
+  color: #333;
+}
+
+.subsection.preview {
+  color: blue;
+}
